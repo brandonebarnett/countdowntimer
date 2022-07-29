@@ -1,0 +1,43 @@
+body {
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0;
+    background-image: url(images/mountain.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    margin-top: -20rem;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+}
+
+.big-text {
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-time {
+    text-align: center;
+}
+
+.countdown-time span {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
